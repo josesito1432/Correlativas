@@ -80,7 +80,7 @@
             // 
             // pnlTrabajoHome
             // 
-            pnlTrabajoHome.BackColor = Color.PowderBlue;
+            pnlTrabajoHome.BackColor = Color.AliceBlue;
             pnlTrabajoHome.BackgroundImageLayout = ImageLayout.Stretch;
             pnlTrabajoHome.Dock = DockStyle.Fill;
             pnlTrabajoHome.Location = new Point(200, 0);
