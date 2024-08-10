@@ -113,7 +113,6 @@
             // 
             // layProfesorados
             // 
-            layProfesorados.AutoSize = true;
             layProfesorados.BackColor = Color.FromArgb(25, 118, 210);
             layProfesorados.Controls.Add(btnProfesoradosExpand);
             layProfesorados.Controls.Add(btnLengua);
@@ -126,9 +125,9 @@
             layProfesorados.Controls.Add(btnPrimaria);
             layProfesorados.Dock = DockStyle.Top;
             layProfesorados.FlowDirection = FlowDirection.RightToLeft;
-            layProfesorados.Location = new Point(0, 180);
+            layProfesorados.Location = new Point(0, 30);
             layProfesorados.Name = "layProfesorados";
-            layProfesorados.Size = new Size(200, 230);
+            layProfesorados.Size = new Size(200, 30);
             layProfesorados.TabIndex = 1;
             // 
             // btnProfesoradosExpand
@@ -278,7 +277,6 @@
             // 
             // layTecnicaturas
             // 
-            layTecnicaturas.AutoSize = true;
             layTecnicaturas.BackColor = Color.FromArgb(25, 118, 210);
             layTecnicaturas.Controls.Add(btnTecnicaturasExpand);
             layTecnicaturas.Controls.Add(btnInformatica);
@@ -291,7 +289,7 @@
             layTecnicaturas.FlowDirection = FlowDirection.RightToLeft;
             layTecnicaturas.Location = new Point(0, 0);
             layTecnicaturas.Name = "layTecnicaturas";
-            layTecnicaturas.Size = new Size(200, 180);
+            layTecnicaturas.Size = new Size(200, 30);
             layTecnicaturas.TabIndex = 0;
             // 
             // btnTecnicaturasExpand
@@ -326,6 +324,7 @@
             btnInformatica.Text = "Informática";
             btnInformatica.TextAlign = ContentAlignment.MiddleRight;
             btnInformatica.UseVisualStyleBackColor = false;
+            btnInformatica.Click += btnInformatica_Click;
             // 
             // btnFrutihorticola
             // 
@@ -527,7 +526,6 @@
             pnlTrabajo.ResumeLayout(false);
             pnlSidebar.ResumeLayout(false);
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             layProfesorados.ResumeLayout(false);
             layTecnicaturas.ResumeLayout(false);
             layFooter.ResumeLayout(false);
