@@ -66,6 +66,10 @@
             panel5 = new Panel();
             panel2 = new Panel();
             panel7 = new Panel();
+            panel61 = new Panel();
+            button26 = new Button();
+            panel62 = new Panel();
+            comboBox26 = new ComboBox();
             panel26 = new Panel();
             button9 = new Button();
             panel27 = new Panel();
@@ -139,10 +143,6 @@
             comboBox18 = new ComboBox();
             panel6 = new Panel();
             panel60 = new Panel();
-            panel61 = new Panel();
-            button26 = new Button();
-            panel62 = new Panel();
-            comboBox26 = new ComboBox();
             tableLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             panel8.SuspendLayout();
@@ -156,6 +156,7 @@
             panel28.SuspendLayout();
             panel2.SuspendLayout();
             panel7.SuspendLayout();
+            panel61.SuspendLayout();
             panel26.SuspendLayout();
             panel24.SuspendLayout();
             panel22.SuspendLayout();
@@ -175,7 +176,6 @@
             panel48.SuspendLayout();
             panel46.SuspendLayout();
             panel44.SuspendLayout();
-            panel61.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -595,6 +595,48 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(354, 462);
             panel7.TabIndex = 1;
+            // 
+            // panel61
+            // 
+            panel61.BackColor = SystemColors.ButtonFace;
+            panel61.Controls.Add(button26);
+            panel61.Controls.Add(panel62);
+            panel61.Controls.Add(comboBox26);
+            panel61.Dock = DockStyle.Bottom;
+            panel61.Location = new Point(0, 425);
+            panel61.Name = "panel61";
+            panel61.Size = new Size(354, 37);
+            panel61.TabIndex = 9;
+            // 
+            // button26
+            // 
+            button26.Dock = DockStyle.Fill;
+            button26.Location = new Point(0, 0);
+            button26.Name = "button26";
+            button26.Size = new Size(201, 37);
+            button26.TabIndex = 0;
+            button26.Text = "button26";
+            button26.UseVisualStyleBackColor = true;
+            // 
+            // panel62
+            // 
+            panel62.Dock = DockStyle.Right;
+            panel62.Location = new Point(201, 0);
+            panel62.Name = "panel62";
+            panel62.Size = new Size(32, 37);
+            panel62.TabIndex = 2;
+            // 
+            // comboBox26
+            // 
+            comboBox26.Dock = DockStyle.Right;
+            comboBox26.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox26.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox26.FormattingEnabled = true;
+            comboBox26.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
+            comboBox26.Location = new Point(233, 0);
+            comboBox26.Name = "comboBox26";
+            comboBox26.Size = new Size(121, 32);
+            comboBox26.TabIndex = 1;
             // 
             // panel26
             // 
@@ -1362,48 +1404,6 @@
             panel60.Size = new Size(1080, 102);
             panel60.TabIndex = 9;
             // 
-            // panel61
-            // 
-            panel61.BackColor = SystemColors.ButtonFace;
-            panel61.Controls.Add(button26);
-            panel61.Controls.Add(panel62);
-            panel61.Controls.Add(comboBox26);
-            panel61.Dock = DockStyle.Bottom;
-            panel61.Location = new Point(0, 425);
-            panel61.Name = "panel61";
-            panel61.Size = new Size(354, 37);
-            panel61.TabIndex = 9;
-            // 
-            // button26
-            // 
-            button26.Dock = DockStyle.Fill;
-            button26.Location = new Point(0, 0);
-            button26.Name = "button26";
-            button26.Size = new Size(201, 37);
-            button26.TabIndex = 0;
-            button26.Text = "button26";
-            button26.UseVisualStyleBackColor = true;
-            // 
-            // panel62
-            // 
-            panel62.Dock = DockStyle.Right;
-            panel62.Location = new Point(201, 0);
-            panel62.Name = "panel62";
-            panel62.Size = new Size(32, 37);
-            panel62.TabIndex = 2;
-            // 
-            // comboBox26
-            // 
-            comboBox26.Dock = DockStyle.Right;
-            comboBox26.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox26.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox26.FormattingEnabled = true;
-            comboBox26.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
-            comboBox26.Location = new Point(233, 0);
-            comboBox26.Name = "comboBox26";
-            comboBox26.Size = new Size(121, 32);
-            comboBox26.TabIndex = 1;
-            // 
             // formInformatica
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1428,6 +1428,7 @@
             panel28.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel7.ResumeLayout(false);
+            panel61.ResumeLayout(false);
             panel26.ResumeLayout(false);
             panel24.ResumeLayout(false);
             panel22.ResumeLayout(false);
@@ -1447,7 +1448,6 @@
             panel48.ResumeLayout(false);
             panel46.ResumeLayout(false);
             panel44.ResumeLayout(false);
-            panel61.ResumeLayout(false);
             ResumeLayout(false);
         }
 
