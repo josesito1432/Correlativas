@@ -66,6 +66,10 @@
             panel5 = new Panel();
             panel2 = new Panel();
             panel7 = new Panel();
+            panel61 = new Panel();
+            button26 = new Button();
+            panel62 = new Panel();
+            comboBox26 = new ComboBox();
             panel26 = new Panel();
             button9 = new Button();
             panel27 = new Panel();
@@ -139,10 +143,6 @@
             comboBox18 = new ComboBox();
             panel6 = new Panel();
             panel60 = new Panel();
-            panel61 = new Panel();
-            button26 = new Button();
-            panel62 = new Panel();
-            comboBox26 = new ComboBox();
             tableLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             panel8.SuspendLayout();
@@ -156,6 +156,7 @@
             panel28.SuspendLayout();
             panel2.SuspendLayout();
             panel7.SuspendLayout();
+            panel61.SuspendLayout();
             panel26.SuspendLayout();
             panel24.SuspendLayout();
             panel22.SuspendLayout();
@@ -175,7 +176,6 @@
             panel48.SuspendLayout();
             panel46.SuspendLayout();
             panel44.SuspendLayout();
-            panel61.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -257,7 +257,7 @@
             // 
             comboBox17.Dock = DockStyle.Right;
             comboBox17.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox17.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox17.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox17.FormattingEnabled = true;
             comboBox17.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox17.Location = new Point(233, 0);
@@ -299,7 +299,7 @@
             // 
             comboBox16.Dock = DockStyle.Right;
             comboBox16.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox16.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox16.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox16.FormattingEnabled = true;
             comboBox16.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox16.Location = new Point(233, 0);
@@ -341,7 +341,7 @@
             // 
             comboBox15.Dock = DockStyle.Right;
             comboBox15.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox15.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox15.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox15.FormattingEnabled = true;
             comboBox15.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox15.Location = new Point(233, 0);
@@ -383,7 +383,7 @@
             // 
             comboBox14.Dock = DockStyle.Right;
             comboBox14.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox14.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox14.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox14.FormattingEnabled = true;
             comboBox14.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox14.Location = new Point(233, 0);
@@ -425,7 +425,7 @@
             // 
             comboBox13.Dock = DockStyle.Right;
             comboBox13.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox13.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox13.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox13.FormattingEnabled = true;
             comboBox13.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox13.Location = new Point(233, 0);
@@ -467,7 +467,7 @@
             // 
             comboBox12.Dock = DockStyle.Right;
             comboBox12.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox12.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox12.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox12.FormattingEnabled = true;
             comboBox12.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox12.Location = new Point(233, 0);
@@ -509,7 +509,7 @@
             // 
             comboBox11.Dock = DockStyle.Right;
             comboBox11.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox11.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox11.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox11.FormattingEnabled = true;
             comboBox11.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox11.Location = new Point(233, 0);
@@ -551,7 +551,7 @@
             // 
             comboBox10.Dock = DockStyle.Right;
             comboBox10.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox10.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox10.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox10.FormattingEnabled = true;
             comboBox10.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox10.Location = new Point(233, 0);
@@ -596,6 +596,48 @@
             panel7.Size = new Size(354, 462);
             panel7.TabIndex = 1;
             // 
+            // panel61
+            // 
+            panel61.BackColor = SystemColors.ButtonFace;
+            panel61.Controls.Add(button26);
+            panel61.Controls.Add(panel62);
+            panel61.Controls.Add(comboBox26);
+            panel61.Dock = DockStyle.Bottom;
+            panel61.Location = new Point(0, 425);
+            panel61.Name = "panel61";
+            panel61.Size = new Size(354, 37);
+            panel61.TabIndex = 9;
+            // 
+            // button26
+            // 
+            button26.Dock = DockStyle.Fill;
+            button26.Location = new Point(0, 0);
+            button26.Name = "button26";
+            button26.Size = new Size(201, 37);
+            button26.TabIndex = 0;
+            button26.Text = "button26";
+            button26.UseVisualStyleBackColor = true;
+            // 
+            // panel62
+            // 
+            panel62.Dock = DockStyle.Right;
+            panel62.Location = new Point(201, 0);
+            panel62.Name = "panel62";
+            panel62.Size = new Size(32, 37);
+            panel62.TabIndex = 2;
+            // 
+            // comboBox26
+            // 
+            comboBox26.Dock = DockStyle.Right;
+            comboBox26.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox26.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox26.FormattingEnabled = true;
+            comboBox26.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
+            comboBox26.Location = new Point(233, 0);
+            comboBox26.Name = "comboBox26";
+            comboBox26.Size = new Size(121, 32);
+            comboBox26.TabIndex = 1;
+            // 
             // panel26
             // 
             panel26.BackColor = SystemColors.ButtonFace;
@@ -630,7 +672,7 @@
             // 
             comboBox9.Dock = DockStyle.Right;
             comboBox9.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox9.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox9.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox9.FormattingEnabled = true;
             comboBox9.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox9.Location = new Point(233, 0);
@@ -672,7 +714,7 @@
             // 
             comboBox8.Dock = DockStyle.Right;
             comboBox8.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox8.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox8.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox8.FormattingEnabled = true;
             comboBox8.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox8.Location = new Point(233, 0);
@@ -714,7 +756,7 @@
             // 
             comboBox7.Dock = DockStyle.Right;
             comboBox7.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox7.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox7.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox7.FormattingEnabled = true;
             comboBox7.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox7.Location = new Point(233, 0);
@@ -756,7 +798,7 @@
             // 
             comboBox6.Dock = DockStyle.Right;
             comboBox6.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox6.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox6.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox6.FormattingEnabled = true;
             comboBox6.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox6.Location = new Point(233, 0);
@@ -799,7 +841,7 @@
             // 
             comboBox5.Dock = DockStyle.Right;
             comboBox5.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox5.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox5.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox5.FormattingEnabled = true;
             comboBox5.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox5.Location = new Point(233, 0);
@@ -841,7 +883,7 @@
             // 
             comboBox4.Dock = DockStyle.Right;
             comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox4.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox4.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox4.FormattingEnabled = true;
             comboBox4.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox4.Location = new Point(233, 0);
@@ -883,7 +925,7 @@
             // 
             comboBox3.Dock = DockStyle.Right;
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox3.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox3.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox3.Location = new Point(233, 0);
@@ -925,7 +967,7 @@
             // 
             comboBox2.Dock = DockStyle.Right;
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox2.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox2.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox2.Location = new Point(233, 0);
@@ -967,7 +1009,7 @@
             // 
             comboBox1.Dock = DockStyle.Right;
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox1.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox1.Location = new Point(233, 0);
@@ -1044,7 +1086,7 @@
             // 
             comboBox25.Dock = DockStyle.Right;
             comboBox25.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox25.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox25.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox25.FormattingEnabled = true;
             comboBox25.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox25.Location = new Point(233, 0);
@@ -1086,7 +1128,7 @@
             // 
             comboBox24.Dock = DockStyle.Right;
             comboBox24.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox24.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox24.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox24.FormattingEnabled = true;
             comboBox24.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox24.Location = new Point(233, 0);
@@ -1128,7 +1170,7 @@
             // 
             comboBox23.Dock = DockStyle.Right;
             comboBox23.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox23.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox23.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox23.FormattingEnabled = true;
             comboBox23.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox23.Location = new Point(233, 0);
@@ -1170,7 +1212,7 @@
             // 
             comboBox22.Dock = DockStyle.Right;
             comboBox22.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox22.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox22.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox22.FormattingEnabled = true;
             comboBox22.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox22.Location = new Point(233, 0);
@@ -1212,7 +1254,7 @@
             // 
             comboBox21.Dock = DockStyle.Right;
             comboBox21.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox21.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox21.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox21.FormattingEnabled = true;
             comboBox21.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox21.Location = new Point(233, 0);
@@ -1254,7 +1296,7 @@
             // 
             comboBox20.Dock = DockStyle.Right;
             comboBox20.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox20.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox20.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox20.FormattingEnabled = true;
             comboBox20.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox20.Location = new Point(233, 0);
@@ -1296,7 +1338,7 @@
             // 
             comboBox19.Dock = DockStyle.Right;
             comboBox19.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox19.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox19.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox19.FormattingEnabled = true;
             comboBox19.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox19.Location = new Point(233, 0);
@@ -1338,7 +1380,7 @@
             // 
             comboBox18.Dock = DockStyle.Right;
             comboBox18.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox18.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox18.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox18.FormattingEnabled = true;
             comboBox18.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
             comboBox18.Location = new Point(233, 0);
@@ -1361,48 +1403,6 @@
             panel60.Name = "panel60";
             panel60.Size = new Size(1080, 102);
             panel60.TabIndex = 9;
-            // 
-            // panel61
-            // 
-            panel61.BackColor = SystemColors.ButtonFace;
-            panel61.Controls.Add(button26);
-            panel61.Controls.Add(panel62);
-            panel61.Controls.Add(comboBox26);
-            panel61.Dock = DockStyle.Bottom;
-            panel61.Location = new Point(0, 425);
-            panel61.Name = "panel61";
-            panel61.Size = new Size(354, 37);
-            panel61.TabIndex = 9;
-            // 
-            // button26
-            // 
-            button26.Dock = DockStyle.Fill;
-            button26.Location = new Point(0, 0);
-            button26.Name = "button26";
-            button26.Size = new Size(201, 37);
-            button26.TabIndex = 0;
-            button26.Text = "button26";
-            button26.UseVisualStyleBackColor = true;
-            // 
-            // panel62
-            // 
-            panel62.Dock = DockStyle.Right;
-            panel62.Location = new Point(201, 0);
-            panel62.Name = "panel62";
-            panel62.Size = new Size(32, 37);
-            panel62.TabIndex = 2;
-            // 
-            // comboBox26
-            // 
-            comboBox26.Dock = DockStyle.Right;
-            comboBox26.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox26.Font = new Font("Sans Serif Collection", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox26.FormattingEnabled = true;
-            comboBox26.Items.AddRange(new object[] { "No Cursando", "Cursando", "Libre", "Regular", "Aprobado" });
-            comboBox26.Location = new Point(233, 0);
-            comboBox26.Name = "comboBox26";
-            comboBox26.Size = new Size(121, 32);
-            comboBox26.TabIndex = 1;
             // 
             // formInformatica
             // 
@@ -1428,6 +1428,7 @@
             panel28.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel7.ResumeLayout(false);
+            panel61.ResumeLayout(false);
             panel26.ResumeLayout(false);
             panel24.ResumeLayout(false);
             panel22.ResumeLayout(false);
@@ -1447,7 +1448,6 @@
             panel48.ResumeLayout(false);
             panel46.ResumeLayout(false);
             panel44.ResumeLayout(false);
-            panel61.ResumeLayout(false);
             ResumeLayout(false);
         }
 
