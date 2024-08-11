@@ -994,7 +994,7 @@
             button1.Name = "button1";
             button1.Size = new Size(201, 37);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Materia 1";
             button1.UseVisualStyleBackColor = true;
             // 
             // panel11
