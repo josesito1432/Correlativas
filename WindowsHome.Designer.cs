@@ -59,7 +59,9 @@
             btnWindowsClosed = new Button();
             btnMaximized = new Button();
             btnWindowsMinimized = new Button();
+            button10 = new Button();
             pnlTrabajo.SuspendLayout();
+            pnlTrabajoHome.SuspendLayout();
             pnlSidebar.SuspendLayout();
             panel3.SuspendLayout();
             layProfesorados.SuspendLayout();
@@ -82,6 +84,7 @@
             // 
             pnlTrabajoHome.BackColor = Color.AliceBlue;
             pnlTrabajoHome.BackgroundImageLayout = ImageLayout.Stretch;
+            pnlTrabajoHome.Controls.Add(button10);
             pnlTrabajoHome.Dock = DockStyle.Fill;
             pnlTrabajoHome.Location = new Point(200, 0);
             pnlTrabajoHome.Name = "pnlTrabajoHome";
@@ -511,6 +514,16 @@
             btnWindowsMinimized.UseVisualStyleBackColor = false;
             btnWindowsMinimized.Click += btnWindowsMinimized_Click;
             // 
+            // button10
+            // 
+            button10.Dock = DockStyle.Fill;
+            button10.Location = new Point(0, 0);
+            button10.Name = "button10";
+            button10.Size = new Size(1080, 670);
+            button10.TabIndex = 1;
+            button10.Text = "button10";
+            button10.UseVisualStyleBackColor = true;
+            // 
             // WindowsHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -523,6 +536,7 @@
             Name = "WindowsHome";
             Text = "WindowsHome";
             pnlTrabajo.ResumeLayout(false);
+            pnlTrabajoHome.ResumeLayout(false);
             pnlSidebar.ResumeLayout(false);
             panel3.ResumeLayout(false);
             layProfesorados.ResumeLayout(false);
@@ -566,5 +580,6 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Button button10;
     }
 }
