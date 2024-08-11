@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Pruebas1.Components;
 
 namespace Pruebas1
 {
@@ -76,6 +77,19 @@ namespace Pruebas1
         {
             layProfesorados.AutoSize = !layProfesorados.AutoSize;
             layTecnicaturas.AutoSize = false;
+        }
+
+        private void btnInformatica_Click(object sender, EventArgs e)
+        {
+            formInformatica menuInformatica = new formInformatica();
+
+            menuInformatica.TopLevel = false;
+
+            menuInformatica.Dock = DockStyle.Fill;
+
+            pnlTrabajoHome.Controls.Add(menuInformatica);
+
+            menuInformatica.Show();
         }
     }
 }

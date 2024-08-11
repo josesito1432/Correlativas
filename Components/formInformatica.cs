@@ -16,5 +16,15 @@ namespace Pruebas1.Components
         {
             InitializeComponent();
         }
+
+        private void panel18_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel48_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

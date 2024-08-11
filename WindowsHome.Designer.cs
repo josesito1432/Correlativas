@@ -34,18 +34,18 @@
             panel3 = new Panel();
             layProfesorados = new FlowLayoutPanel();
             btnProfesoradosExpand = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
+            btnLengua = new Button();
+            btnIngles = new Button();
+            btnHistoria = new Button();
+            btnBiologia = new Button();
+            btnMatematicas = new Button();
+            btnEducacionFisica = new Button();
+            btnQuimica = new Button();
+            btnPrimaria = new Button();
             layTecnicaturas = new FlowLayoutPanel();
             btnTecnicaturasExpand = new Button();
             btnInformatica = new Button();
-            btnFrutihorticula = new Button();
+            btnFrutihorticola = new Button();
             btnAlimentos = new Button();
             btnTurismo = new Button();
             btnForestal = new Button();
@@ -80,7 +80,7 @@
             // 
             // pnlTrabajoHome
             // 
-            pnlTrabajoHome.BackColor = Color.AliceBlue;
+            pnlTrabajoHome.BackColor = Color.LightBlue;
             pnlTrabajoHome.BackgroundImageLayout = ImageLayout.Stretch;
             pnlTrabajoHome.Dock = DockStyle.Fill;
             pnlTrabajoHome.Location = new Point(200, 0);
@@ -115,14 +115,14 @@
             // 
             layProfesorados.BackColor = Color.FromArgb(25, 118, 210);
             layProfesorados.Controls.Add(btnProfesoradosExpand);
-            layProfesorados.Controls.Add(button2);
-            layProfesorados.Controls.Add(button3);
-            layProfesorados.Controls.Add(button4);
-            layProfesorados.Controls.Add(button5);
-            layProfesorados.Controls.Add(button6);
-            layProfesorados.Controls.Add(button7);
-            layProfesorados.Controls.Add(button8);
-            layProfesorados.Controls.Add(button9);
+            layProfesorados.Controls.Add(btnLengua);
+            layProfesorados.Controls.Add(btnIngles);
+            layProfesorados.Controls.Add(btnHistoria);
+            layProfesorados.Controls.Add(btnBiologia);
+            layProfesorados.Controls.Add(btnMatematicas);
+            layProfesorados.Controls.Add(btnEducacionFisica);
+            layProfesorados.Controls.Add(btnQuimica);
+            layProfesorados.Controls.Add(btnPrimaria);
             layProfesorados.Dock = DockStyle.Top;
             layProfesorados.FlowDirection = FlowDirection.RightToLeft;
             layProfesorados.Location = new Point(0, 30);
@@ -147,140 +147,140 @@
             btnProfesoradosExpand.UseVisualStyleBackColor = false;
             btnProfesoradosExpand.Click += btnProfesoradosExpand_Click;
             // 
-            // button2
+            // btnLengua
             // 
-            button2.BackColor = Color.FromArgb(25, 118, 210);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.WhiteSmoke;
-            button2.Location = new Point(40, 30);
-            button2.Margin = new Padding(0);
-            button2.Name = "button2";
-            button2.Size = new Size(160, 25);
-            button2.TabIndex = 1;
-            button2.Text = "Informatica";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = false;
+            btnLengua.BackColor = Color.FromArgb(25, 118, 210);
+            btnLengua.FlatAppearance.BorderSize = 0;
+            btnLengua.FlatStyle = FlatStyle.Flat;
+            btnLengua.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLengua.ForeColor = Color.WhiteSmoke;
+            btnLengua.Location = new Point(40, 30);
+            btnLengua.Margin = new Padding(0);
+            btnLengua.Name = "btnLengua";
+            btnLengua.Size = new Size(160, 25);
+            btnLengua.TabIndex = 1;
+            btnLengua.Text = "Lengua";
+            btnLengua.TextAlign = ContentAlignment.MiddleRight;
+            btnLengua.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnIngles
             // 
-            button3.BackColor = Color.FromArgb(25, 118, 210);
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.WhiteSmoke;
-            button3.Location = new Point(40, 55);
-            button3.Margin = new Padding(0);
-            button3.Name = "button3";
-            button3.Size = new Size(160, 25);
-            button3.TabIndex = 2;
-            button3.Text = "Frutihorticula";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.UseVisualStyleBackColor = false;
+            btnIngles.BackColor = Color.FromArgb(25, 118, 210);
+            btnIngles.FlatAppearance.BorderSize = 0;
+            btnIngles.FlatStyle = FlatStyle.Flat;
+            btnIngles.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnIngles.ForeColor = Color.WhiteSmoke;
+            btnIngles.Location = new Point(40, 55);
+            btnIngles.Margin = new Padding(0);
+            btnIngles.Name = "btnIngles";
+            btnIngles.Size = new Size(160, 25);
+            btnIngles.TabIndex = 2;
+            btnIngles.Text = "Inglés";
+            btnIngles.TextAlign = ContentAlignment.MiddleRight;
+            btnIngles.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnHistoria
             // 
-            button4.BackColor = Color.FromArgb(25, 118, 210);
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.WhiteSmoke;
-            button4.Location = new Point(40, 80);
-            button4.Margin = new Padding(0);
-            button4.Name = "button4";
-            button4.Size = new Size(160, 25);
-            button4.TabIndex = 3;
-            button4.Text = "Alimentos";
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.UseVisualStyleBackColor = false;
+            btnHistoria.BackColor = Color.FromArgb(25, 118, 210);
+            btnHistoria.FlatAppearance.BorderSize = 0;
+            btnHistoria.FlatStyle = FlatStyle.Flat;
+            btnHistoria.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnHistoria.ForeColor = Color.WhiteSmoke;
+            btnHistoria.Location = new Point(40, 80);
+            btnHistoria.Margin = new Padding(0);
+            btnHistoria.Name = "btnHistoria";
+            btnHistoria.Size = new Size(160, 25);
+            btnHistoria.TabIndex = 3;
+            btnHistoria.Text = "Historia";
+            btnHistoria.TextAlign = ContentAlignment.MiddleRight;
+            btnHistoria.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnBiologia
             // 
-            button5.BackColor = Color.FromArgb(25, 118, 210);
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.ForeColor = Color.WhiteSmoke;
-            button5.Location = new Point(40, 105);
-            button5.Margin = new Padding(0);
-            button5.Name = "button5";
-            button5.Size = new Size(160, 25);
-            button5.TabIndex = 4;
-            button5.Text = "Turismo";
-            button5.TextAlign = ContentAlignment.MiddleRight;
-            button5.UseVisualStyleBackColor = false;
+            btnBiologia.BackColor = Color.FromArgb(25, 118, 210);
+            btnBiologia.FlatAppearance.BorderSize = 0;
+            btnBiologia.FlatStyle = FlatStyle.Flat;
+            btnBiologia.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBiologia.ForeColor = Color.WhiteSmoke;
+            btnBiologia.Location = new Point(40, 105);
+            btnBiologia.Margin = new Padding(0);
+            btnBiologia.Name = "btnBiologia";
+            btnBiologia.Size = new Size(160, 25);
+            btnBiologia.TabIndex = 4;
+            btnBiologia.Text = "Biología";
+            btnBiologia.TextAlign = ContentAlignment.MiddleRight;
+            btnBiologia.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnMatematicas
             // 
-            button6.BackColor = Color.FromArgb(25, 118, 210);
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.WhiteSmoke;
-            button6.Location = new Point(40, 130);
-            button6.Margin = new Padding(0);
-            button6.Name = "button6";
-            button6.Size = new Size(160, 25);
-            button6.TabIndex = 5;
-            button6.Text = "Forestal";
-            button6.TextAlign = ContentAlignment.MiddleRight;
-            button6.UseVisualStyleBackColor = false;
+            btnMatematicas.BackColor = Color.FromArgb(25, 118, 210);
+            btnMatematicas.FlatAppearance.BorderSize = 0;
+            btnMatematicas.FlatStyle = FlatStyle.Flat;
+            btnMatematicas.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnMatematicas.ForeColor = Color.WhiteSmoke;
+            btnMatematicas.Location = new Point(40, 130);
+            btnMatematicas.Margin = new Padding(0);
+            btnMatematicas.Name = "btnMatematicas";
+            btnMatematicas.Size = new Size(160, 25);
+            btnMatematicas.TabIndex = 5;
+            btnMatematicas.Text = "Matemáticas";
+            btnMatematicas.TextAlign = ContentAlignment.MiddleRight;
+            btnMatematicas.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnEducacionFisica
             // 
-            button7.BackColor = Color.FromArgb(25, 118, 210);
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.ForeColor = Color.WhiteSmoke;
-            button7.Location = new Point(40, 155);
-            button7.Margin = new Padding(0);
-            button7.Name = "button7";
-            button7.Size = new Size(160, 25);
-            button7.TabIndex = 6;
-            button7.Text = "Diseño Grafico";
-            button7.TextAlign = ContentAlignment.MiddleRight;
-            button7.UseVisualStyleBackColor = false;
+            btnEducacionFisica.BackColor = Color.FromArgb(25, 118, 210);
+            btnEducacionFisica.FlatAppearance.BorderSize = 0;
+            btnEducacionFisica.FlatStyle = FlatStyle.Flat;
+            btnEducacionFisica.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEducacionFisica.ForeColor = Color.WhiteSmoke;
+            btnEducacionFisica.Location = new Point(40, 155);
+            btnEducacionFisica.Margin = new Padding(0);
+            btnEducacionFisica.Name = "btnEducacionFisica";
+            btnEducacionFisica.Size = new Size(160, 25);
+            btnEducacionFisica.TabIndex = 6;
+            btnEducacionFisica.Text = "Educación Física";
+            btnEducacionFisica.TextAlign = ContentAlignment.MiddleRight;
+            btnEducacionFisica.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btnQuimica
             // 
-            button8.BackColor = Color.FromArgb(25, 118, 210);
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.ForeColor = Color.WhiteSmoke;
-            button8.Location = new Point(40, 180);
-            button8.Margin = new Padding(0);
-            button8.Name = "button8";
-            button8.Size = new Size(160, 25);
-            button8.TabIndex = 7;
-            button8.Text = "Diseño Grafico";
-            button8.TextAlign = ContentAlignment.MiddleRight;
-            button8.UseVisualStyleBackColor = false;
+            btnQuimica.BackColor = Color.FromArgb(25, 118, 210);
+            btnQuimica.FlatAppearance.BorderSize = 0;
+            btnQuimica.FlatStyle = FlatStyle.Flat;
+            btnQuimica.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnQuimica.ForeColor = Color.WhiteSmoke;
+            btnQuimica.Location = new Point(40, 180);
+            btnQuimica.Margin = new Padding(0);
+            btnQuimica.Name = "btnQuimica";
+            btnQuimica.Size = new Size(160, 25);
+            btnQuimica.TabIndex = 7;
+            btnQuimica.Text = "Química";
+            btnQuimica.TextAlign = ContentAlignment.MiddleRight;
+            btnQuimica.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnPrimaria
             // 
-            button9.BackColor = Color.FromArgb(25, 118, 210);
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.ForeColor = Color.WhiteSmoke;
-            button9.Location = new Point(40, 205);
-            button9.Margin = new Padding(0);
-            button9.Name = "button9";
-            button9.Size = new Size(160, 25);
-            button9.TabIndex = 8;
-            button9.Text = "Diseño Grafico";
-            button9.TextAlign = ContentAlignment.MiddleRight;
-            button9.UseVisualStyleBackColor = false;
+            btnPrimaria.BackColor = Color.FromArgb(25, 118, 210);
+            btnPrimaria.FlatAppearance.BorderSize = 0;
+            btnPrimaria.FlatStyle = FlatStyle.Flat;
+            btnPrimaria.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPrimaria.ForeColor = Color.WhiteSmoke;
+            btnPrimaria.Location = new Point(40, 205);
+            btnPrimaria.Margin = new Padding(0);
+            btnPrimaria.Name = "btnPrimaria";
+            btnPrimaria.Size = new Size(160, 25);
+            btnPrimaria.TabIndex = 8;
+            btnPrimaria.Text = "Primaria";
+            btnPrimaria.TextAlign = ContentAlignment.MiddleRight;
+            btnPrimaria.UseVisualStyleBackColor = false;
             // 
             // layTecnicaturas
             // 
             layTecnicaturas.BackColor = Color.FromArgb(25, 118, 210);
             layTecnicaturas.Controls.Add(btnTecnicaturasExpand);
             layTecnicaturas.Controls.Add(btnInformatica);
-            layTecnicaturas.Controls.Add(btnFrutihorticula);
+            layTecnicaturas.Controls.Add(btnFrutihorticola);
             layTecnicaturas.Controls.Add(btnAlimentos);
             layTecnicaturas.Controls.Add(btnTurismo);
             layTecnicaturas.Controls.Add(btnForestal);
@@ -321,25 +321,26 @@
             btnInformatica.Name = "btnInformatica";
             btnInformatica.Size = new Size(160, 25);
             btnInformatica.TabIndex = 1;
-            btnInformatica.Text = "Informatica";
+            btnInformatica.Text = "Informática";
             btnInformatica.TextAlign = ContentAlignment.MiddleRight;
             btnInformatica.UseVisualStyleBackColor = false;
+            btnInformatica.Click += btnInformatica_Click;
             // 
-            // btnFrutihorticula
+            // btnFrutihorticola
             // 
-            btnFrutihorticula.BackColor = Color.FromArgb(25, 118, 210);
-            btnFrutihorticula.FlatAppearance.BorderSize = 0;
-            btnFrutihorticula.FlatStyle = FlatStyle.Flat;
-            btnFrutihorticula.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnFrutihorticula.ForeColor = Color.WhiteSmoke;
-            btnFrutihorticula.Location = new Point(40, 55);
-            btnFrutihorticula.Margin = new Padding(0);
-            btnFrutihorticula.Name = "btnFrutihorticula";
-            btnFrutihorticula.Size = new Size(160, 25);
-            btnFrutihorticula.TabIndex = 2;
-            btnFrutihorticula.Text = "Frutihorticula";
-            btnFrutihorticula.TextAlign = ContentAlignment.MiddleRight;
-            btnFrutihorticula.UseVisualStyleBackColor = false;
+            btnFrutihorticola.BackColor = Color.FromArgb(25, 118, 210);
+            btnFrutihorticola.FlatAppearance.BorderSize = 0;
+            btnFrutihorticola.FlatStyle = FlatStyle.Flat;
+            btnFrutihorticola.Font = new Font("Comic Sans MS", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnFrutihorticola.ForeColor = Color.WhiteSmoke;
+            btnFrutihorticola.Location = new Point(40, 55);
+            btnFrutihorticola.Margin = new Padding(0);
+            btnFrutihorticola.Name = "btnFrutihorticola";
+            btnFrutihorticola.Size = new Size(160, 25);
+            btnFrutihorticola.TabIndex = 2;
+            btnFrutihorticola.Text = "Frutihortícola";
+            btnFrutihorticola.TextAlign = ContentAlignment.MiddleRight;
+            btnFrutihorticola.UseVisualStyleBackColor = false;
             // 
             // btnAlimentos
             // 
@@ -401,7 +402,7 @@
             btnDisGrafico.Name = "btnDisGrafico";
             btnDisGrafico.Size = new Size(160, 25);
             btnDisGrafico.TabIndex = 6;
-            btnDisGrafico.Text = "Diseño Grafico";
+            btnDisGrafico.Text = "Diseño Gráfico";
             btnDisGrafico.TextAlign = ContentAlignment.MiddleRight;
             btnDisGrafico.UseVisualStyleBackColor = false;
             // 
@@ -551,20 +552,20 @@
         private Button btnTecnicaturasExpand;
         private Panel panel2;
         private Button btnInformatica;
-        private Button btnFrutihorticula;
+        private Button btnFrutihorticola;
         private Button btnAlimentos;
         private Button btnTurismo;
         private Button btnForestal;
         private Button btnDisGrafico;
         private FlowLayoutPanel layProfesorados;
         private Button btnProfesoradosExpand;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
+        private Button btnLengua;
+        private Button btnIngles;
+        private Button btnHistoria;
+        private Button btnBiologia;
+        private Button btnMatematicas;
+        private Button btnEducacionFisica;
+        private Button btnQuimica;
+        private Button btnPrimaria;
     }
 }
